@@ -1,0 +1,1 @@
+c:\windows\system32\cmd.exe /c "c:\windows\system32\runas.exe /user:DOMAIN1\%USERNAME:1=2% /netonly c:\temp\whoson.cmd"
