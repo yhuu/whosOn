@@ -1,4 +1,4 @@
 # whosOn - Windows
-Use psloggedon.exe across domains for multiple nodes
-Store nodes.txt in \Documents\
-Run from shortcut with runas
+Use sysinternals psloggedon.exe tool to see what user loggedin across domains for multiple nodes
+Per user node list stored in \Documents\
+Shortcut uses runas for different domain accs
