@@ -10,7 +10,7 @@ set loggedon=c:\sysinternals\psloggedon.exe
 type NUL > %users%
 type NUL > %output%
 
-for /f %%n in (%nodes%) do (
+for "eol=# delims= " /f %%n in (%nodes%) do (
   %loggedon% -l \\%%n > %output%
   echo %%n: >> %users
   findstr \/ %output% >> %users%
