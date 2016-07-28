@@ -1,3 +1,3 @@
-node1.domain
-node2.domain
-node3.domain
+node1.address
+node2.address
+node3.address
